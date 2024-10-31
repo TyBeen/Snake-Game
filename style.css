@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 1%;
+    background-color: #15202B;
+}
+
+.welcomeMsg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 2px solid;
+    position: absolute;
+    z-index: 1;
+}
+
+.welcome {
+    margin-top: 5%;
+}
+
+.msg {
+    margin-top: 5%;
+}
+
+.start {
+    margin-top: 5%;
+    border: none;
+    margin-bottom: 5%;
+    background-color: white ;
+    font-size: 1em;
+}
+
+.title {
+    text-align: center;
+}
+
+.trackers {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.border {
+    background-color: rgb(0, 62, 43);
+    padding-bottom: 60%;
+    position: relative;
+    overflow: hidden;
+}
+
+.hideButton {
+    display: none;
+}
+
+
+.snakeDot {
+    height: 25px;
+    width: 25px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.scoreDot {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
